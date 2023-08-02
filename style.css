@@ -174,21 +174,20 @@ main {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  justify-content: center;
   position: fixed;
-  width: 80rem;
-  height: 30rem;
-  background-color: rgba(255, 255, 255, 0.35);
+  z-index: 0;
+  width: 100rem;
+  background-color: rgba(255, 255, 255, 0);
   backdrop-filter: blur(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  /* overflow: hidden; */
+
   display: flex;
-  padding: 10px;
+  padding: 5px;
 }
 
 .rules p {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 3px;
 }
